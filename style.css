@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #6d6e71;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 10px;
+}
+.home {
+  margin-right: auto;
+  padding: 10px;
+}
+.aboutnav {
+  padding: 20px;
+}
+
+.contactnav {
+  padding: 20px;
+}
+
+#hero {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: Left;
+  padding: 1em;
+}
+
+/*portfolio area*/
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 2000px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10em;
+  text-align: left;
+}
+
+img {
+  max-width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+/*symantics*/
+h1 {
+  font-family: open sans, helvetica, arial;
+  color: #6d6e71;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-family: open sans, helvetica, arial;
+  color: #6d6e71;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-family: open sans, helvetica, arial;
+  color: #6d6e71;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*about*/
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10em;
+}
+.about {
+  font-family: open sans, helvetica, arial;
+  color: #6d6e71;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 1000px;
+}
+
+/*button*/
+a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #333;
+  max-width: 170px;
+  padding: 1em 1.5em;
+  text-align: center;
+  border-radius: 6px;
+  white-space: normal;
+  transition: all 0.15s ease-in-out;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  letter-spacing: 0.046875em;
+}
+a:hover {
+  background-color: #e0e0e0;
+}
+a:visited {
+  color: #b7142e;
+}
+
+/*footer*/
+
+footer {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+@media (min width: 800px) {
+  p {
+    font-size: 14px;
+  }
+}
+
